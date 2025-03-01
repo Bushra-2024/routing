@@ -3,13 +3,14 @@ import { Outlet, Link } from "react-router-dom";
 import Logo from "../assets/Logo (2).png";  
 import Icon from "../assets/Icon.png";
 import social from "../assets/Socialmedia.png";
+import '../App.css'
 
 const Layout = () => {
   const [menuOpen, setMenuOpen] = useState(false); 
 
   return (
     <div>
-      <nav className="flex px-[10%] justify-between items-center py-4 bg-white">
+      <nav className="wrapper flex px-[10%] justify-between items-center py-4 bg-white">
         <img src={Logo} alt="Logo" className="w-24" />
         <div className="hidden lg:flex gap-12 font-semibold">
           <Link to="/" className="hover:border-b-2">Home</Link>
@@ -46,7 +47,7 @@ const Layout = () => {
         <Outlet />
       </main>
 
-      <footer className="bg-[#1D1E25] lg:px-[10%] py-20 text-white">
+      <footer className="wrapper bg-[#1D1E25] lg:px-[10%] py-20 text-white">
         <div className="lg:flex items-center justify-between px-[7%]">
           <div>
             <h2 className="lg:text-[40px] text-[30px] font-semibold lg:w-[60%]">

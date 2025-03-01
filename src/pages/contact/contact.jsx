@@ -4,9 +4,10 @@ import pin from '../../assets/Pin.png'
 import logos from "../../assets/Logos.png";
 import logoss from "../../assets/Frame 1171275273.png";
 import Imageeee from "../../assets/Image (2).png";
+import '../../App.css'
 const Contact = () => {
   return (
-    <div>
+    <div className="wrapper">
       <section>
         <div className="lg:w-[53%] w-[80%] px-[4%] py-10 mx-4">
           <h1 className="lg:text-6xl text-2xl font-semibold">Contact our team to find out more</h1>

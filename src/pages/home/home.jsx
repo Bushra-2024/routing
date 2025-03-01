@@ -21,7 +21,7 @@ import btnArrow from "../../assets/Button Arrow.png"
 
 export default function Home (){
   return (
-  <div>
+  <div className="wrapper">
   <header className="flex flex-wrap lg:pl-[140px] mt-20 justify-between">
   <div className="w-full lg:w-[40%] px-10 lg:px-0">
     <h1 className="lg:text-[50px] text-[30px] font-bold">Digitally forward creative</h1>
@@ -50,7 +50,7 @@ export default function Home (){
   </div>
 </header>
 <main>
-  <section className="bg-[#1D1E25] w-screen lg:my-32 p-[10%] text-white">
+  <section className="bg-[#1D1E25] w-full lg:my-32 p-[10%] text-white">
     <h2 className="lg:text-[40px] text-[25px] font-semibold lg:w-[50%]">Coca help our client solve complex customer problems with date that does more.</h2>
     <p className="text-[#7E8492] text-[15px] lg:w-[46%] py-2">
       Our platform offers the modern enterprise full control of how date can be access and used with industry leading software solutions for identity, activation, and date collaboration

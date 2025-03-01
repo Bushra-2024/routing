@@ -7,10 +7,10 @@ import Rectangle4 from '../../assets/Rectangle 4.png'
 import Rectangle5 from '../../assets/Rectangle 5.png'
 import Rectangle6 from '../../assets/Rectangle 6.png'
 import media from '../../assets/Frame 1171275129.png'
-
+import '../../App.css'
 export default function About() {
     return (
-        <div>
+        <div className="wrapper">
             <header className="flex flex-wrap lg:px-[140px] lg:justify-between lg:items-center">
                 <div className="w-full lg:w-[60%] px-10 lg:px-0">
                     <h1 className="lg:text-[50px] text-[33px] font-bold pt-10">

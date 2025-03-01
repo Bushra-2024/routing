@@ -12,9 +12,10 @@ import rec6 from '../../assets/Image (6).png'
 import rec7 from '../../assets/Image (7).png'
 import left from '../../assets/Frame 1171275052.png'
 import left1 from '../../assets/Frame 1171275053.png'
+import '../../App.css'
 function Blog() {
   return (
-    <div>
+    <div className="wrapper">
       <header>
         <div className="w-full lg:w-[45%] px-10 lg:ml-32 lg:px-0">
           <h1 className="lg:text-[50px] text-[40px] font-bold">Activity & Updates</h1>
@@ -47,7 +48,7 @@ function Blog() {
               </div>
             </div>
 
-            <img src={aroow} alt="" className="hidden lg:block absolute top-[200px] left-[480px]" />
+            <img src={aroow} alt="" className="hidden lg:block absolute top-[200px] left-[400px]" />
             <div className="lg:w-[110%] hidden lg:block">
               <img src={img2} alt="" />
               <div className="p-2">
@@ -71,7 +72,7 @@ function Blog() {
           </div>
         </div>
       </section>
-      <section className="bg-[#1D1E25] w-screen lg:px-36 py-20 px-10">
+      <section className="bg-[#1D1E25] w-full lg:px-36 py-20 px-10">
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="lg:w-[50%] m-auto">
             <img src={rec} alt="" className="w-full" />

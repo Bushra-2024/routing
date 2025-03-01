@@ -3,9 +3,10 @@ import round from '../../assets/Ellipse 15 (1).png'
 import table from '../../assets/Rectangle 44.png'
 import girl from '../../assets/Rectangle 45.png'
 import media from '../../assets/Frame 1171275082.png'
+import '../../App.css'
 function DetailBlog() {
   return (
-    <div>
+    <div className="wrapper">
       <header>
         <h1 className="text-[30px] lg:text-[44px] mt-10 font-bold lg:w-[50%] w-full lg:mx-32 ">
           How we perform long-running tasks using AWS <br /> services

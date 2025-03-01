@@ -5,9 +5,10 @@ import green from '../../assets/Icon (3).png'
 import gray from '../../assets/Icon (4).png'
 import light from '../../assets/Icon (5).png'
 import crown from '../../assets/Icon (6).png'
+import '../../App.css'
 const Pricing = () => {
   return (
-    <div>
+    <div className="wrapper">
       <section>
         <p className="text-center rounded-2xl bg-sky-100 m-auto mt-10 text-sky-500 font-bold text-[18px] py-2 px-[2px] w-50">
           Pricing plans 🤑
@@ -155,7 +156,7 @@ const Pricing = () => {
       </p>
     </div>
     <div>
-      <p className="ml-0">_</p> {/* Removed ml-60 */}
+      <p className="ml-0">_</p> 
     </div>
     <hr />
   </div>
