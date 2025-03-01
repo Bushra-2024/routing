@@ -32,7 +32,7 @@ const Contact = () => {
               <h3 className="text-[18px] py-1">+1 (435) 345-7655</h3>
             </div>
 
-            <div className="lg:p-2 p-[2px] rounded-lg lg:w-[220px] lg:h-[80px] w-[100px] bg-white lg:absolute lg:top-[230px] lg:left-[520px] top-[100px] left-[200px]">
+            <div className="hidden lg:block lg:p-2 p-[2px] rounded-lg lg:w-[220px] lg:h-[80px] w-[100px] bg-white lg:absolute lg:top-[230px] lg:left-[520px] top-[100px] left-[200px]">
               <h1 className="lg:text-sm font-bold">Yogja, INA</h1>
               <p className="lg:text-[13px] text-[#7E8492]">100 Smith Street, Collingwood VIC 3066 AU</p>
             </div>
